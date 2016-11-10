@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //react-redux allows react and redux to communciate through the connect func.
 import { connect } from 'react-redux';
-import { selectBook} from '../actions/index';
+import { selectBook } from '../actions/index';
 import { bindActionCreators } from 'redux';
 
 class BookList extends Component {
